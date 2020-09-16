@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - property:
+      name: autoIncrement
+      value: true
+
+  - changeSet:
+      sqlFile:
+        - path: db/changelog/scripts/changeset_1.sql
